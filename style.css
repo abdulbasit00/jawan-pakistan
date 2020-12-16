@@ -1,0 +1,45 @@
+
+h1 {
+    font-family: 'Nerko One', cursive;
+    text-decoration: overline;
+    background: black;
+    color: blanchedalmond;
+    text-align: center;
+
+}
+@font-face {
+    font-family: 'east-sea';
+    src: url('./font/EastSeaDokdo-Regular.ttf');}
+    h2{
+        font-family: 'east-sea';
+        text-decoration: underline ;
+        width: auto;
+        text-align: justify;
+    }
+    p{
+text-transform: uppercase;
+word-spacing: 4px;
+text-align: justify;
+
+    }
+    h2{
+        text-shadow: -3px -3px 3px gray;
+    }p::first-letter{
+        font-size: 20px;
+        color: green;
+    }
+
+    a:link {
+        color: red;
+        text-decoration: none;}
+        a:visited {
+        color: black;}
+        a:hover {
+        color: deeppink;
+        text-decoration: underline;}
+        a:active {
+        color: darkcyan;}
+        input{
+            padding: 6px 12 px 6px 12px;
+            border: 1 solid red;
+        }
